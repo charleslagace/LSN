@@ -26,4 +26,15 @@ Longitudinal Siamese Network for clinical trajectory prediction
   - pandas
   - seaborn 
 
-  
+# Charles additional notes
+How to get the required prerequisites for the notebooks:
+
+```bash
+module load anaconda/5.0.1-python3
+conda create --name myenv
+source activate my env
+conda install -c anaconda tensorflow-gpu
+conda install scikit-learn
+conda install -c anaconda pandas
+conda install -c anaconda seaborn
+```
